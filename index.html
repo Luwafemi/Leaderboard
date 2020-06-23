@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HNG Leaderboard</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Oluwafemi" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./leaderboard.css" />
+    <style type="text/css"></style>
+  </head>
+  <body style="background-color: white;">
+    <div>
+      <nav style="" class="navbar navbar-light bg-transparent">
+        <div class="hng" style="font-weight: 900; margin-top: 12px;">
+          <img style="height: 40px; width: 40px;" src="./HNG.jpg" alt="Hng" />
+          <span>HNG </span>
+          <span style="float: right; margin-top: 20px; margin-left: -34px;">
+            Changing the world...
+          </span>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="background-color: white;"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+    <!-- ........................................................................................ -->
+
+    <div class="container">
+      <h1 class="leaderboard">Leaderboard</h1>
+      <hr style="margin-top: -20px; margin-bottom: 40px;">
+      <div class="row">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 20px;margin-left: 10px;" class="container row">
+            <div class="card third" style="width: 18rem; background-color:#070606f7;" class="col-sm">
+              <!-- <img src="..." class="card-img-top" alt="..." /> -->
+              <div class="card-body">
+                <h5 class="card-title" style="color: #a09c9c;">3RD</h5>
+                <p class="card-text" style="color: #a09c9c;">...<br></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">25 points</li>
+                <li class="list-group-item">@cummings</li>
+                <li class="list-group-item">princesskcummings@yahoo.com</li>
+              </ul>
+              <div class="card-body">
+                <!-- <a href="#" class="card-link">Card link</a> -->
+              </div>
+            </div>
+            <div class="card first" style="width: 18rem; background-color:#ffc107;" >
+              <!-- <img src="..." class="card-img-top" alt="..." /> -->
+              <div class="card-body">
+                <h5 class="card-title">1ST</h5>
+                <p class="card-text">
+                  Uyi-Idahor Benard Aiseosa
+                </p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">39 points</li>
+                <li class="list-group-item">@Aise</li>
+                <li class="list-group-item">aiseosauyiidahor@gmail.com</li>
+              </ul>
+              <div class="card-body">
+                <!-- <a href="#" class="card-link">Card link</a> -->
+              </div>
+            </div>
+            <div class="card" style="width: 18rem; background-color: silver;">
+              <!-- <img src="..." class="card-img-top" alt="..." /> -->
+              <div class="card-body">
+                <h5 class="card-title">2ND</h5>
+                <p class="card-text">
+                  Dikamsi Young Udochi
+                </p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">27 points</li>
+                <li class="list-group-item">@dikamsi</li>
+                <li class="list-group-item">youngudochi15@gmail.com</li>
+              </ul>
+              <div class="card-body">
+                <!-- <a href="#" class="card-link">Card link</a> -->
+              </div>
+            </div>
+          </div>
+        <div class="col-12" style="margin-top: 10px;">
+          
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">FULL NAME</th>
+                  <th scope="col">USERNAME</th>
+                  <th scope="col">EMAIL</th>
+                  <th scope="col">TOTAL POINTS</th>
+                </tr>
+              </thead>
+              <tbody id="table"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- .................................................................................................... -->
+    <footer>
+      <div class="main-footer-content container">
+        <p style="text-align: center; margin-top: 30px;">
+          © 2020 HNG internship . All Rights Reserved. HNG Group
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./leaderboard.js"></script>
+  </body>
+</html>

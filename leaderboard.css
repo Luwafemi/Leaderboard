@@ -1,0 +1,81 @@
+/* 
+Extra small     <576px
+Small           >=576px
+Medium          >=768px
+Large           >=992px
+Extra large     >=1200px
+ */
+
+
+ .leaderboard{
+   /* color: #daa520a8; */
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   font-size: 29px;
+ }
+ .card{
+   border-radius: 50px ;
+ }
+
+/* .......................SCROLLBAR................................... */
+body::-webkit-scrollbar {
+  width: 15px;
+  background-color: #fff;
+}
+body::-webkit-scrollbar-track-piece {
+  background-color: #babac0;
+  border-radius: 16px;
+  border: 4px solid #fff;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #babac6;
+  border-radius: 100px;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+body::-webkit-scrollbar-button:start {
+  height: 13px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid black;
+}
+
+body::-webkit-scrollbar-button:end {
+  height: 14px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid black;
+}
+
+/* ...........................................Media Queries........................ */
+@media (min-width:768px){
+  
+  footer{
+    margin-top: 60px;
+  }
+}
+/* ........................................................ */
+@media (min-width:1200px){
+ 
+  footer{
+    margin-top: 0px;
+  }
+}
+/* ................................................................ */
+
+@media (min-width:690px){
+  .hng{
+    font-weight: 900 !important;
+  }
+}
+@media (max-width:900px){
+  .first{
+    margin-left: auto;
+  }
+}
+@media (min-width:770px) and (max-width:1000px){
+  .third{
+    margin-bottom: 20px;
+  }
+}
